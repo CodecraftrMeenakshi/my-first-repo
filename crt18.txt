@@ -1,0 +1,95 @@
+public class type1 {
+	static void design() {
+		System.out.println("********************************");
+		System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+		System.out.println(".................................");
+		
+	}   
+	
+	public static void main(String[] args) {
+	    design();
+		System.out.println("hello");
+		design();
+		System.out.println("welcome");
+		design();
+		System.out.println("java");
+		design();
+		System.out.println("st.peters eng college");
+		design();
+		System.out.println("3rd year");
+		design();
+		System.out.println("full stack dev..");
+	}
+}
+output:********************************
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+.................................
+hello
+********************************
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+.................................
+welcome
+********************************
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+.................................
+java
+********************************
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+.................................
+st.peters eng college
+********************************
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+.................................
+3rd year
+********************************
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+.................................
+full stack dev..
+
+Q)
+package demo;
+
+
+public class tYPE3 {
+	static float convertcurrency(String country) {
+		float res = 0;
+		if(country.contentEquals("USA")) {
+			res =83.45f;
+		}
+		else if(country.contentEquals("UK")){
+			res= 120.45f;	
+		}
+		else if(country.contentEquals("CANADA")) {
+			res=67.45f;
+		}
+		return res;		
+	}
+	public static void main(String[]args) {
+		int dollar=100;
+		float rupees;
+		rupees=convertcurrency("USA")*dollar;
+		System.out.println("USA to India"+rupees);
+		rupees=convertcurrency("UK")*dollar;
+		System.out.println("UK to India"+rupees);
+		rupees=convertcurrency("CANADA")*dollar;
+		System.out.println("CANADA to India"+rupees);
+		
+		
+		
+	}
+	
+}
+output:USA to India8345.0
+UK to India12045.0
+CANADA to India6744.9995
+
+	    
+	    
+	    
+	    
+	    
+	    
+	
+	        
+	        
+	
